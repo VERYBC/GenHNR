@@ -12,3 +12,7 @@ We construct a new real-world continuous-scene UAV localization dataset, **XIHUA
    - 运行`scripts/XIHUA_Visloc_train.py ` and `scripts/XIHUA_Visloc_test.py `，构建训练和测试卫星图库
 4. Resize UAV images:
     - Run `scripts/UAV_image_rescaling.py`. The processed UAV data will be saved to the `drone_392/` folder.
+
+
+## 4. Acknowledgement
+This repository is built using the [Sample4Geo](https://github.com/Skyy93/Sample4Geo), [IHN](https://github.com/imdumpl78/IHN) and [HCNet](https://github.com/xlwangDev/HC-Net).
