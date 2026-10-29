@@ -7,3 +7,8 @@ We construct a new real-world continuous-scene UAV localization dataset, **XIHUA
 </p>
 
 ## 2. Data preparation for XIHUA-Visloc
+1. Download [XIHUA-Visloc](https://huggingface.co/datasets/VERYBC/XIHUA-Visloc) 将其放入data/Xihua_visloc文件夹中
+2. Construct the satellite reference library:
+   - 运行`scripts/XIHUA_Visloc_train.py ` and `scripts/XIHUA_Visloc_test.py `，构建训练和测试卫星图库
+4. Resize UAV images:
+    - Run `scripts/UAV_image_rescaling.py`. The processed UAV data will be saved to the `drone_392/` folder.
