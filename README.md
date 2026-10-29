@@ -53,7 +53,7 @@ The processed UAV images will be saved in the `drone_392/` directory.
 
 ### 📦 3.1. Download Model Weights
 
-Download the pretrained model weights from [**Google Drive**](https://drive.google.com/drive/folders/1E2IXkT4bqmuNL_bT2Fo20K0c39E1pOCI?usp=drive_link) and place the weight files in the `checkpoints/` directory.
+Download the pretrained model weights from [**Google Drive**](https://drive.google.com/drive/folders/1oZ5E3VgV-_WINwRnr0PfoTiUsDhJ728D?usp=drive_link) and place the weight files in the `checkpoints/` directory.
 
 ### 🔍 3.2. Stage 1: Cross-View Retrieval
 
