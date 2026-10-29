@@ -1,0 +1,23 @@
+{
+    "mixed_precision": true,
+    "iters_lev0": 8,
+    "lev0": true,
+    "flow": true,
+    "p_siamese": false,
+
+    "loss_w": [0.05, 1.0, 0.2],
+
+    "orien": true,
+
+    "wdecay": 0.0005,
+    "epsilon": 1e-7,  
+    "clip": 1.0,
+    "gamma": 0.85,    
+
+    "image_size": 392,
+    "sat_size": 392,
+    "zoom": 19,
+
+    "best_dis": 1e8
+
+}
